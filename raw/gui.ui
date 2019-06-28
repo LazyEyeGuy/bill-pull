@@ -1,0 +1,83 @@
+<ui version="4.0">
+	<class>MainWindow</class>
+	<widget class="QMainWindow" name="MainWindow">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>723</width>
+				<height>600</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>MainWindow</string>
+		</property>
+		<widget class="QWidget" name="centralwidget">
+			<widget class="QDialogButtonBox" name="vote">
+				<property name="geometry">
+					<rect>
+						<x>280</x>
+						<y>450</y>
+						<width>176</width>
+						<height>28</height>
+					</rect>
+				</property>
+				<property name="standardButtons">
+					<set>QDialogButtonBox::No|QDialogButtonBox::Yes</set>
+				</property>
+			</widget>
+			<widget class="QLabel" name="number">
+				<property name="geometry">
+					<rect>
+						<x>261</x>
+						<y>60</y>
+						<width>231</width>
+						<height>41</height>
+					</rect>
+				</property>
+				<property name="text">
+					<string Test="H.R.3521">Test</string>
+				</property>
+			</widget>
+			<widget class="QLabel" name="sponsor">
+				<property name="geometry">
+					<rect>
+						<x>250</x>
+						<y>140</y>
+						<width>231</width>
+						<height>41</height>
+					</rect>
+				</property>
+				<property name="text">
+					<string Rev.  Jim Jones="Rep.Greg Stanton D-AZ">Rev.  Jim Jones</string>
+				</property>
+			</widget>
+			<widget class="QLabel" name="name">
+				<property name="geometry">
+					<rect>
+						<x>190</x>
+						<y>190</y>
+						<width>361</width>
+						<height>181</height>
+					</rect>
+				</property>
+				<property name="text">
+					<string Bill Name="To amend the Federal Water Pollution Control Act with respect to wastewater infrastructure workforce development, and for other purposes.">Bill Name</string>
+				</property>
+			</widget>
+		</widget>
+		<widget class="QMenuBar" name="menubar">
+			<property name="geometry">
+				<rect>
+					<x>0</x>
+					<y>0</y>
+					<width>723</width>
+					<height>28</height>
+				</rect>
+			</property>
+		</widget>
+		<widget class="QStatusBar" name="statusbar" />
+		</widget>
+	<resources />
+	<connections />
+</ui>
